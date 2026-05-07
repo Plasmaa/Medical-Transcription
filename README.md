@@ -1,4 +1,3 @@
-```python?code_reference&code_event_index=5
 # Define the content for the README.md file
 readme_content = """# Medical Transcription Information Extraction
 
@@ -33,31 +32,5 @@ The extraction process uses a specialized system prompt to guide the model:
 ## Usage
 1. **Setup**: Ensure you have an OpenAI API key configured in your environment.
 2. **Install Dependencies**:
-   ```
-```text?code_stdout&code_event_index=5
-README.md has been generated.
-
 ```bash
-   pip install pandas openai
-   ```
-3. **Run**: Execute the notebook or script to process the `data/transcriptions.csv` file.
-
-## Sample Result
-The output `df_structured` contains the following columns:
-| age | medical_specialty | recommended_treatment | icd_code |
-|-----|-------------------|-----------------------|----------|
-| 23  | Allergy/Immunology| Zyrtec or loratadine  | J30.1    |
-| 41  | Orthopedics       | Operative fixation    | S86.011A |
-
-## License
-This project is part of a medical data processing automation initiative.
-"""
-
-# Write the content to a file named README.md
-with open("README.md", "w") as f:
-    f.write(readme_content)
-
-print("README.md has been generated.")
-
-
-```
+pip install pandas openai
