@@ -1,6 +1,3 @@
-# Define the content for the README.md file
-readme_content = """# Medical Transcription Information Extraction
-
 ## Project Overview
 This project automates the extraction of key medical data from natural language patient encounter transcripts. Developed for **Lakeside Healthcare Network**, the system leverages the **OpenAI API** to transform dense, unstructured medical notes into a structured format suitable for insurance claims, billing, and clinical documentation.
 
